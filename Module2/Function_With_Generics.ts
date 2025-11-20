@@ -32,7 +32,7 @@
     })
     
 
-const addCourseToStudent<T>(student: T) =>{
+const addCourseToStudent = <T>(student: T) =>{
   const Course = "Learn with Sumit";
   return {
     ...student,Course
